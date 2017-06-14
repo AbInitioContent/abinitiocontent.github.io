@@ -1,0 +1,1558 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+h1,
+h2,
+h3,
+h4,
+h5
+{
+	font-family: 'Calibri Light', 'Trebuchet MS', Arial, sans-serif;
+	font-weight: bold;
+}
+
+h1
+{
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	mc-next-tag: p;
+	border-bottom: none 2px;
+	border-bottom-width: 0px;
+	font-size: 190%;
+}
+
+h2
+{
+	margin-top: 10pt;
+	margin-bottom: 0pt;
+	mc-next-tag: p;
+	font-size: 130%;
+	border-bottom-style: none;
+	color: #000000;
+}
+
+h3
+{
+	margin-top: 3pt;
+	margin-bottom: 0pt;
+	mc-next-tag: p;
+	font-size: 110%;
+	color: #000000;
+}
+
+h4
+{
+	font-size: 100%;
+	margin-bottom: 0pt;
+}
+
+h5
+{
+	font-size: 100%;
+	margin-bottom: 0pt;
+	margin-top: 1.50em;
+}
+
+p
+{
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+a.whitelink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.greenlink
+{
+	text-decoration: none;
+	color: #67ab48;
+}
+
+a.blacklink
+{
+	color: #3c8a2e;
+	text-decoration: none;
+}
+
+li
+{
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+	margin-top: 10pt;
+	margin-bottom: 10pt;
+	margin-left: 14pt;
+}
+
+ul > ul
+{
+	list-style-type: disc;
+}
+
+ol > ul
+{
+	list-style-type: square;
+}
+
+ol
+{
+	margin-top: 3pt;
+	margin-left: 0pt;
+	padding-left: 2pt;
+	margin-bottom: 3pt;
+}
+
+ul
+{
+	list-style-type: square;
+	margin-left: 0pt;
+	margin-top: 3pt;
+	padding-left: 16pt;
+}
+
+dd
+{
+	margin-bottom: 0pt;
+	margin-left: 14pt;
+}
+
+dt
+{
+	margin-top: 3pt;
+}
+
+table
+{
+	margin-top: 1pt;
+	margin-bottom: 1pt;
+	background: none;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	padding: 1pt;
+	width: 95%;
+	border: none 0 #008000;
+}
+
+table.notetable
+{
+	background: none;
+	display: table;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	width: 95%;
+	left: 1px;
+	background-color: #f6e896;
+	border: none 1px #92d400;
+	border-bottom: solid 1px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-top: solid 1px;
+	margin-bottom: 10pt;
+	margin-top: 10pt;
+}
+
+table.shadedtable
+{
+	border: 1px ridge #0062C8;
+	margin-top: 6pt;
+	background: #CADF86;
+}
+
+th
+{
+	text-align: center;
+	background: none;
+	vertical-align: top;
+	font-weight: bold;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	font-size: 8pt;
+	border-bottom: 2px ridge #0062C8;
+	border-left-style: none;
+	border-left-width: 1px;
+	border-right-style: none;
+	border-right-width: 1px;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-bottom-style: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #0062C8;
+}
+
+tr
+{
+	vertical-align: top;
+}
+
+td
+{
+	background: none;
+	vertical-align: top;
+	font-style: normal;
+	border-left-style: none;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: none;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+}
+
+td.notetable
+{
+	background-color: #f6e896;
+	border-color: #000000;
+	border: solid 0px;
+}
+
+img.thumbnail
+{
+	vertical-align: top;
+	border-width: 1pt;
+	margin-left: 0pt;
+}
+
+p.thumbnail
+{
+	clear: both;
+}
+
+span.CharacterCode
+{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 90%;
+}
+
+p.BulletList
+{
+	list-style: disc;
+	margin-top: 2pt;
+	font-style: normal;
+	line-height: Normal;
+	text-indent: -1pt;
+	margin-left: -1pt;
+	mc-next-class: BulletList;
+	mc-next-tag: p;
+}
+
+li.BulletList
+{
+	list-style: disc;
+	line-height: Normal;
+	mc-next-class: BulletList;
+	mc-next-tag: p;
+	margin-left: 4pt;
+	text-indent: 0pt;
+	margin-bottom: 8pt;
+	margin-top: 8pt;
+}
+
+p.BulletHead
+{
+	font-weight: bold;
+	font-style: normal;
+	list-style: disc;
+	line-height: Normal;
+	margin-top: 2pt;
+	text-indent: -1pt;
+	margin-left: -1pt;
+	mc-next-class: BodyTextIndent;
+	mc-next-tag: p;
+}
+
+li.BulletHead
+{
+	font-weight: bold;
+	font-style: normal;
+	list-style: disc;
+	color: #000000;
+	line-height: Normal;
+	margin-top: 2pt;
+	text-indent: -1pt;
+	margin-left: -1pt;
+	mc-next-class: BodyTextIndent;
+	mc-next-tag: p;
+}
+
+p.BodyTextIndent
+{
+	margin-top: 2pt;
+	line-height: Normal;
+	margin-left: 20pt;
+}
+
+p.BodyTextIndent2
+{
+	margin-top: 2pt;
+	margin-left: 30pt;
+	line-height: Normal;
+}
+
+p.Note
+{
+	margin-bottom: 0pt;
+	margin-top: 0pt;
+	line-height: normal;
+	text-align: center;
+	width: auto;
+	margin-right: -4pt;
+	padding-top: 1pt;
+}
+
+div.LandingRow-1	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.LandingRow-1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.LandingRow-1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.LandingRow-1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.LandingRow-1 > div:nth-child(1)
+{
+	font-size: 1.5em;
+	width: 100%;
+	margin-left: 0%;
+}
+
+div.LandingRow-3-3-3	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.LandingRow-3-3-3::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.LandingRow-3-3-3::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.LandingRow-3-3-3 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1.5em;
+}
+
+div.LandingRow-3-3-3 > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.LandingRow-3-3-3 > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.LandingRow-3-3-3 > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.TransparentBox
+{
+	border: solid 3px transparent;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+}
+
+div.TransparentBoxSmall
+{
+	border: solid 3px transparent;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+}
+
+div.TransparentBox:hover
+{
+	border-bottom-color: #ffffff;
+	border-bottom: solid 3px #ffffff;
+}
+
+div.JumpoffBox:hover
+{
+	border-bottom-color: #ffffff;
+	border-bottom: solid 5px #ffffff;
+	border: solid 3px #a29c9c;
+}
+
+div.JumpoffBoxPlain:hover
+{
+	border-bottom-color: #ffffff;
+	border-bottom: solid 5px #ffffff;
+	border: solid 3px #a29c9c;
+}
+
+div.TransparentBoxSmall:hover
+{
+	border-bottom-color: #ffffff;
+	border-bottom: solid 3px #ffffff;
+}
+
+div.JumpoffBox
+{
+	border: solid 3px #dcdcdc;
+	background-color: #00a3db;
+	border-bottom-left-radius: 0px;
+	border-radius: 6px;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+}
+
+div.JumpoffBoxPlain
+{
+	border: solid 3px #dcdcdc;
+	border-bottom-left-radius: 0px;
+	border-radius: 6px;
+	padding: 0px 10px;
+	margin-bottom: 10px;
+}
+
+.centered-text
+{
+	text-align: center;
+}
+
+.centered-text-white
+{
+	text-align: center;
+	color: #ffffff;
+	padding: 10px;
+}
+
+.center-with-margin
+{
+	position: relative;
+	float: none !important;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.em8
+{
+	font-size: 0.8em;
+}
+
+a.whitelink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a.greenlink
+{
+	text-decoration: none;
+	color: #67ab48;
+}
+
+span.CharacterItalic
+{
+	font-style: italic;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+span.CharacterInterface
+{
+	font-weight: bold;
+}
+
+a:RelatedTopics\00003Alink,
+a:RelatedTopics\003AACtive,
+a:RelatedTopics\00003Avisited
+{
+	color: #0060c6;
+}
+
+p.RelatedTopics
+{
+	font-weight: bold;
+	color: #0060c6;
+	mc-next-tag: p;
+	margin-top: 10pt;
+}
+
+li.RelatedTopicsBullet
+{
+	list-style-type: disc;
+	line-height: normal;
+	color: #0060c6;
+}
+
+p.ProductName
+{
+	font-style: normal;
+	margin-top: 0pt;
+	margin-bottom: 3pt;
+	background-color: Transparent;
+	text-align: left;
+	font-size: 14pt;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	color: #10377c;
+	font-weight: bold;
+}
+
+p.TableHead
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	margin-top: 0pt;
+	text-align: center;
+	font-size: 8pt;
+}
+
+p.TableText
+{
+	margin-bottom: 2pt;
+	font-family: default;
+}
+
+li.TableBulletList
+{
+	list-style: disc;
+	text-indent: -1pt;
+	margin-left: 0pt;
+	margin-top: 2pt;
+	font-family: default;
+}
+
+span.CharacterBold
+{
+	font-weight: bold;
+	font-style: normal;
+}
+
+span.CharacterAuthorComment
+{
+	color: #ff0000;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+p.Infoblock
+{
+	padding: 4px;
+	font-weight: normal;
+	font-style: normal;
+	color: #ffffff;
+	mc-next-tag: p;
+	background-color: #535353;
+}
+
+li.STopicBullet
+{
+	margin-left: 120px;
+}
+
+li.BulletList2
+{
+	line-height: normal;
+	list-style-type: disc;
+	margin-bottom: 6pt;
+	margin-top: 2pt;
+}
+
+html
+{
+	mc-master-page: url('../../MasterPages/Generic.flmsp');
+}
+
+MadCap|miniTocProxy
+{
+	
+}
+
+MadCap|miniTocProxy.SeeAlso
+{
+	color: #ff6347;
+}
+
+MadCap|breadcrumbsProxy
+{
+	font-family: Trebuchet MS;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -8px;
+	border-bottom-color: #dcdcdc;
+	background-color: #f0f0f0;
+	mc-breadcrumbs-count: 4;
+	font-weight: 500;
+	mc-breadcrumbs-prefix: 'You are here: ';
+	font-size: 80%;
+	font-style: italic;
+}
+
+li.BulletList4
+{
+	list-style-image: url('../../Images/smallorange.gif');
+}
+
+MadCap|toggler:focus
+{
+	color: #3c8a2e;
+}
+
+MadCap|toggler:hover
+{
+	color: #3c8a2e;
+}
+
+MadCap|toggler
+{
+	color: #4169e1;
+}
+
+MadCap|xref
+{
+	mc-format: 'See {quote}{paratext}{quote}';
+}
+
+:after
+{
+	margin-top: 8pt;
+}
+
+li.NoteText
+{
+	line-height: Normal;
+	list-style: disc;
+	margin-left: -4pt;
+}
+
+td.Note1
+{
+	width: 0.5in;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	vertical-align: middle;
+}
+
+p.NoteText
+{
+	margin-top: 10pt;
+}
+
+p.Banner
+{
+	background-color: #f0f0f0;
+	padding-top: 30px;
+	padding-left: 80px;
+	padding-right: 150px;
+	text-indent: 0px;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -8px;
+	padding: 10px;
+	margin-bottom: 0pt;
+	padding-bottom: 10px;
+}
+
+p.BulletListIndent
+{
+	margin-left: 5pt;
+}
+
+img.thumbnail
+{
+	mc-thumbnail: hover;
+	border-left-width: 1pt;
+	border-right-width: 1pt;
+	border-top-width: 1pt;
+	border-bottom-width: 1pt;
+}
+
+html
+{
+	mc-master-page: url('../../MasterPages/Generic.flmsp');
+}
+
+body
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	font-size: 100%;
+}
+
+MadCap|dropDown
+{
+	
+}
+
+MadCap|dropDownHotspot
+{
+	color: #4169e1;
+}
+
+MadCap|toggler
+{
+	color: #4169e1;
+}
+
+span.CharacterBoldItalic
+{
+	font-style: italic;
+	font-weight: bold;
+}
+
+MadCap|toggler:hover
+{
+	color: #4169e1;
+	font-weight: bold;
+}
+
+MadCap|toggler:focus
+{
+	color: #4169e1;
+}
+
+MadCap|expandingHead.expandspot:hover
+{
+	font-weight: bold;
+}
+
+MadCap|expandingHead:hover
+{
+	font-weight: bold;
+}
+
+MadCap|dropDownHead
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+MadCap|expandingHead
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	color: #4169e1;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	font-weight: bold;
+}
+
+h2.Underlined
+{
+	text-decoration: underline;
+	border-width: 0px;
+	border-bottom: solid 0px;
+}
+
+pre,
+code,
+kbd,
+samp,
+tt
+{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 90%;
+}
+
+pre.Boxed
+{
+	background-color: #c0c0c0;
+	border-right: solid 0px;
+	padding-right: 0px;
+	padding: 4px;
+	background-repeat: repeat;
+	width: 100%;
+	overflow: auto;
+}
+
+ul.linklist
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: -35px;
+}
+
+ul.linklist > li
+{
+	list-style: none;
+	background-image: url('../../Images/arrows.gif');
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+	margin-left: 2em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 1.5em;
+}
+
+div.MCMiniTocBox_SeeAlso_0
+{
+	display: none;
+}
+
+a:link
+{
+	color: #4169e1;
+}
+
+a:visited
+{
+	color: #4169e1;
+}
+
+a:active
+{
+	color: #4169e1;
+}
+
+/* a:hover
+{
+	x-on-hover: fontchange fontchange;
+	font-style: normal;
+	text-decoration: underline;
+	color: #3c8a2e;
+	font-weight: bold;
+} */
+
+a.dropspot:visited
+{
+	color: #3c8a2e;
+}
+
+h3.Underlined
+{
+	margin-top: 10pt;
+	border-left: solid 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-width: 0px;
+	border-bottom: solid 2px;
+	border-bottom-color: #000000;
+}
+
+MadCap|tocProxy
+{
+	border-top-width: 0px;
+}
+
+div.LandingRow-4-4-4	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.LandingRow-4-4-4::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.LandingRow-4-4-4::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.LandingRow-4-4-4 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.LandingRow-4-4-4 > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.LandingRow-4-4-4 > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.LandingRow-4-4-4 > div:nth-child(3)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.OtherTopicTemplate	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.OtherTopicTemplate::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.OtherTopicTemplate::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.OtherTopicTemplate > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.OtherTopicTemplate > div:nth-child(1)
+{
+	width: 75%;
+	margin-left: 0%;
+}
+
+div.OtherTopicTemplate > div:nth-child(2)
+{
+	width: 25%;
+	margin-left: 0%;
+}
+
+div.OtherTopic-8-4	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.OtherTopic-8-4::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.OtherTopic-8-4::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.OtherTopic-8-4 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.OtherTopic-8-4 > div:nth-child(1)
+{
+	width: 66.667%;
+	margin-left: 0%;
+}
+
+div.OtherTopic-8-4 > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.LandingRow-6-6	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.LandingRow-6-6::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.LandingRow-6-6::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.LandingRow-6-6 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.LandingRow-6-6 > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.LandingRow-6-6 > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.PlayBox
+{
+	padding: 12px;
+	margin: 10px;
+	border: solid 1px #dcdcdc;
+	min-height: 175px;
+}
+
+div.PlayBox-small
+{
+	padding: 12px;
+	margin: 10px;
+	border: solid 1px #dcdcdc;
+	min-height: 120px;
+}
+
+div.LandingRowCTA	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	text-align: center;
+	color: #67ab48;
+	border: solid 1px #67ab48;
+	padding-left: 10px;
+	vertical-align: middle;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	position: static;
+	margin-top: 20px;
+}
+
+div.LandingRowCTA:hover a
+{
+	color: #ffffff;
+}
+
+div.LandingRowCTA::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.LandingRowCTA::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.LandingRowCTA > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+div.LandingRowCTA > div:nth-child(1)
+{
+	width: 100%;
+	margin-left: 0%;
+	font-size: inherit;
+}
+
+@media print
+{
+	p
+	{
+		mc-hyphenate: never;
+	}
+
+	h1
+	{
+		mc-auto-number-format: '{chapnum}. ';
+	}
+
+	h2
+	{
+		mc-auto-number-format: '{chapnum}.{secnum} ';
+	}
+
+	h1.NoNumber
+	{
+		mc-auto-number-format: '{ =0} ';
+	}
+
+	h3
+	{
+		mc-auto-number-format: '{chapnum}.{secnum}.{n+} ';
+	}
+
+	span.UserInterfaceButton
+	{
+		
+	}
+
+	span.UserInterfacePageName
+	{
+		font-weight: bold;
+	}
+
+	span.KeyboardInput
+	{
+		font-weight: bold;
+	}
+
+	span.Emphasis
+	{
+		font-weight: bold;
+	}
+
+	span.ConceptIntroduction
+	{
+		font-style: italic;
+	}
+
+	body
+	{
+		font-size: 100%;
+	}
+
+	h4.JumpOffTableHeading
+	{
+		font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+		font-weight: bold;
+	}
+
+	h4
+	{
+		font-size: 100%;
+	}
+}
+
+img.inline
+{
+	max-width: 28px;
+	max-height: 28px;
+	vertical-align: middle;
+}
+
+h1.NoNumber
+{
+	
+}
+
+@media non-print
+{
+	h1
+	{
+		border-bottom: solid 2px;
+		border-bottom-color: #000000;
+	}
+
+	h2
+	{
+		border-bottom: solid 2px;
+		border-bottom-color: #000000;
+	}
+
+	MadCap|popupBody
+	{
+		color: #ffffff;
+		background-color: #4e0303;
+	}
+
+	body
+	{
+		font-size: 90%;
+	}
+
+	span.Version
+	{
+		color: #3c8a2e;
+	}
+
+	span.HelpUpdate
+	{
+		font-weight: bold;
+	}
+
+	h4
+	{
+		padding-bottom: 0px;
+		margin-bottom: 0pt;
+	}
+
+	h5
+	{
+		
+	}
+}
+
+span.Version
+{
+	color: #3c8a2e;
+	font-weight: bold;
+}
+
+span.HelpUpdate
+{
+	color: #3c8a2e;
+	font-weight: bold;
+}
+
+span.ConceptIntroduction
+{
+	font-style: italic;
+}
+
+span.Emphasis
+{
+	font-weight: bold;
+}
+
+span.KeyboardInput
+{
+	font-weight: bold;
+}
+
+span.UserInterfaceButton
+{
+	font-weight: bold;
+}
+
+span.UserInterfacePageName
+{
+	font-weight: bold;
+}
+
+span.FilePathName
+{
+	font-weight: bold;
+}
+
+span.CommandLineCommand
+{
+	font-weight: bold;
+}
+
+span.Variable
+{
+	font-style: italic;
+}
+
+span.UserInterfaceDialogBox
+{
+	font-weight: bold;
+}
+
+span.UserInterfaceSelection
+{
+	font-weight: bold;
+}
+
+span.UserInterfaceMenu
+{
+	font-weight: bold;
+}
+
+h5
+{
+	
+}
+
+h5.InfoBox
+{
+	margin-top: 0em;
+}
+
+h4.JumpOffTableHeading
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	font-weight: bold;
+	mc-disable-glossary-terms: true;
+	margin-top: 0.50em;
+}
+
+span.OptionalStepHeading
+{
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 5000px)
+{
+	div.LandingRow-4-4-4 > div:nth-child(1)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-4-4-4 > div:nth-child(2)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-4-4-4 > div:nth-child(3)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.OtherTopicTemplate > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.OtherTopicTemplate > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.OtherTopic-8-4 > div:nth-child(1)
+	{
+		width: 66.667%;
+		margin-left: 0%;
+	}
+
+	div.OtherTopic-8-4 > div:nth-child(2)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-6-6 > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-6-6 > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.LandingRow-3-3-3 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-4-4-4 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-4-4-4 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-4-4-4 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.OtherTopicTemplate > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.OtherTopicTemplate > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.OtherTopic-8-4 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.OtherTopic-8-4 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-6-6 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-6-6 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-3-3-3 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-3-3-3 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.JumpoffBox
+	{
+		
+	}
+
+	div.PlayBox
+	{
+		
+	}
+}
+
+a.whitelink:link
+{
+	color: #ffffff;
+}
+
+a.whitelink:visited
+{
+	color: #ffffff;
+}
+
+a.whitelink:active
+{
+	color: #ffffff;
+}
+
+a.greenlink:link
+{
+	color: #67ab48;
+}
+
+a.greenlink:visited
+{
+	color: #67ab48;
+}
+
+a.greenlink:hover
+{
+	color: #ffffff;
+}
+
+p.playbox
+{
+	margin: 1em;
+	padding: 10px;
+}
+
+div.PlayBox:hover
+{
+	background-color: #ebf2f9;
+}
+
+div.PlayBox-small:hover
+{
+	background-color: #ebf2f9;
+}
+
+div.LandingRowCTA:hover
+{
+	background-color: #67ab48;
+	color: #ffffff;
+}
+
+.align-left
+{
+	text-align: left;
+}
+
+.align-right
+{
+	text-align: right;
+}
+
+.align-center
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.clearswift-blue
+{
+	color: #00a3db;
+}
+
+div.LandingRowCTA:active
+{
+	color: #ffffff;
+}
+
