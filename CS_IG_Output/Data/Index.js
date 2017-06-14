@@ -1,0 +1,1 @@
+define({numchunks:1,prefix:'Index_Chunk',terms:[{t:'Alerts',c:0,$:1},{t:'Classification',c:0,$:0},{t:'Configure',c:0,$:0},{t:'Item',c:0,$:0},{t:'Performance',c:0,$:0},{t:'Registry',c:0,$:0},{t:'Reporting',c:0,$:1},{t:'User access',c:0,$:1},{t:'Whitlelist',c:0,$:0}]});
