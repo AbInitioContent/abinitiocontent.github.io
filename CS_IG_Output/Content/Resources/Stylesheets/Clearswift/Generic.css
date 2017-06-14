@@ -1391,6 +1391,11 @@ span.OptionalStepHeading
 		width: 50%;
 		margin-left: 0%;
 	}
+
+	.centered-text
+	{
+		margin-left: 5%;
+	}
 }
 
 @media only screen and (max-width: 767px)
@@ -1475,6 +1480,12 @@ span.OptionalStepHeading
 	div.PlayBox
 	{
 		
+	}
+
+	.centered-text
+	{
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 
