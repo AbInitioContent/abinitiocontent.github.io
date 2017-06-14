@@ -153,10 +153,12 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 
+/*
 .img-header {
   display: block;
   max-width: 200px;
  }
+*/
 
 .navbar-custom {
   background-color: #fff;
