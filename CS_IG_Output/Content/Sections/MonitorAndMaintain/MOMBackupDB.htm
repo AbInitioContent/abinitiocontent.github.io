@@ -19,10 +19,7 @@
         <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" data-mc-generated="True" />
         <link href="../../Resources/Tablestyles/ClearswiftBasic.css" rel="stylesheet" />
-        <link href="../../Resources/Tablestyles/WarningTable.css" rel="stylesheet" />
-        <link href="../../Resources/Tablestyles/TipTable.css" rel="stylesheet" />
         <link href="../../Resources/Stylesheets/Clearswift/Generic.css" rel="stylesheet" />
-        <link href="../../Resources/Tablestyles/NoteTable.css" rel="stylesheet" />
         <script src="../../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../../Resources/Scripts/jquery.min.js">
@@ -130,16 +127,7 @@
                                                         <li value="1">A locally mounted partition with dedicated space for backups</li>
                                                         <li value="2">A remote server with dedicated space for backups via SSH</li>
                                                     </ul>
-                                                    <table style="mc-table-style: url('../../Resources/TableStyles/WarningTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;width: 95%;" class="TableStyle-WarningTable" cellspacing="0">
-                                                        <col class="TableStyle-WarningTable-Column-Column1" />
-                                                        <col class="TableStyle-WarningTable-Column-Column2" />
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="TableStyle-WarningTable-BodyB-Column1-">&#160;</td>
-                                                                <td class="TableStyle-WarningTable-BodyA-Column2-">You should never back up to a IG Server system partition for example <span class="FilePathName">root</span>, <span class="FilePathName">/var</span>, <span class="FilePathName">/var/db</span>, <span class="FilePathName">/tmp</span>. Unpredictable results might occur.</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                                    <p class="warning" data-mc-autonum="&lt;span style=&quot;color: #8b0000;&quot; class=&quot;mcFormatColor&quot;&gt;&lt;b&gt;Warning: &#160;&lt;/b&gt;&lt;/span&gt;"><span class="autonumber"><span class="warning"><span style="color: #8b0000;" class="mcFormatColor"><b>Warning: &#160;</b></span></span></span>You should never back up to a IG Server system partition for example <span class="FilePathName">root</span>, <span class="FilePathName">/var</span>, <span class="FilePathName">/var/db</span>, <span class="FilePathName">/tmp</span>. Unpredictable results might occur.</p>
                                                     <p>You will also need to decide on the best time to run the backup. The size of the database will dictate how long the process will take, but note that key services, including Gateway processing requests and usage of the Administration UI, will be unavailable while the backup is being performed. We recommend that you perform backups when there is low system activity.</p>
                                                 </div>
                                             </div>
@@ -153,18 +141,7 @@
                                                         <li value="2">Burn to CD</li>
                                                         <li value="3">Write to a cloud backup server</li>
                                                     </ul>
-                                                    <table style="mc-table-style: url('../../Resources/TableStyles/TipTable.css');margin-left: 0;margin-right: auto;caption-side: top;mc-caption-repeat: true;width: 95%;" class="TableStyle-TipTable" cellspacing="0">
-                                                        <col class="TableStyle-TipTable-Column-Column1" />
-                                                        <col class="TableStyle-TipTable-Column-Column2" />
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="TableStyle-TipTable-BodyB-Column1-">&#160;</td>
-                                                                <td class="TableStyle-TipTable-BodyA-Column2-">
-                                                                    <p>Consider using one of the many dedicated tools available on Ubuntu for managing your backed up data.</p>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                                    <p class="tip" data-mc-autonum="&lt;span style=&quot;color: #8b4513;&quot; class=&quot;mcFormatColor&quot;&gt;&lt;b&gt;Tip: &#160;&lt;/b&gt;&lt;/span&gt;"><span class="autonumber"><span class="tip"><span style="color: #8b4513;" class="mcFormatColor"><b>Tip: &#160;</b></span></span></span>Consider using one of the many dedicated tools available on Ubuntu for managing your backed up data.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -172,18 +149,7 @@
                                             <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" />Backup automation</a></span>
                                                 <div class="MCDropDownBody dropDownBody">
                                                     <p>The IG Server does not provide tools for automated backup. To provide automation to the process, consider creating a <span class="CommandLineCommand">cron</span> job, or use another tool to manage automation.</p>
-                                                    <table style="width: 95%;mc-table-style: url('../../Resources/TableStyles/NoteTable.css');margin-left: 0;margin-right: auto;" class="TableStyle-NoteTable" cellspacing="0">
-                                                        <col class="TableStyle-NoteTable-Column-Column1" />
-                                                        <col class="TableStyle-NoteTable-Column-Column2" />
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="TableStyle-NoteTable-BodyB-Column1-">&#160;</td>
-                                                                <td class="TableStyle-NoteTable-BodyA-Column2-">
-                                                                    <p>When you back up to a remote server using SSH, you will need to provide remote server and remote server credentials. If you want to automate this process you should consider setting up password-less authorization between the IG Server and the remote backup server.</p>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                                    <p class="nota" data-mc-autonum="&lt;span style=&quot;color: #000000;&quot; class=&quot;mcFormatColor&quot;&gt;&lt;b&gt;Note: &#160;&lt;/b&gt;&lt;/span&gt;"><span class="autonumber"><span class="note"><span style="color: #000000;" class="mcFormatColor"><b>Note: &#160;</b></span></span></span>When you back up to a remote server using SSH, you will need to provide remote server and remote server credentials. If you want to automate this process you should consider setting up password-less authorization between the IG Server and the remote backup server.</p>
                                                 </div>
                                             </div>
                                         </li>
@@ -207,18 +173,7 @@
                                                                     <p>From the SSH client, connect to your IG server.</p>
                                                                 </li>
                                                             </ol>
-                                                            <table style="width: 95%;mc-table-style: url('../../Resources/TableStyles/NoteTable.css');margin-left: 0;margin-right: auto;" class="TableStyle-NoteTable" cellspacing="0">
-                                                                <col class="TableStyle-NoteTable-Column-Column1" />
-                                                                <col class="TableStyle-NoteTable-Column-Column2" />
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td class="TableStyle-NoteTable-BodyB-Column1-">&#160;</td>
-                                                                        <td class="TableStyle-NoteTable-BodyA-Column2-">
-                                                                            <p>Leaving SSH access enabled for extended periods might represent a security risk. You should consider disabling SSH when not using it.</p>
-                                                                        </td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
+                                                            <p class="tip" data-mc-autonum="&lt;span style=&quot;color: #8b4513;&quot; class=&quot;mcFormatColor&quot;&gt;&lt;b&gt;Tip: &#160;&lt;/b&gt;&lt;/span&gt;"><span class="autonumber"><span class="tip"><span style="color: #8b4513;" class="mcFormatColor"><b>Tip: &#160;</b></span></span></span>Leaving SSH access enabled for extended periods might represent a security risk. You should consider disabling SSH when not using it.</p>
                                                         </div>
                                                     </div>
                                                     <ol>
@@ -271,18 +226,7 @@
                                                             </table>
                                                         </li>
                                                     </ol>
-                                                    <table style="width: 95%;caption-side: top;mc-caption-repeat: true;mc-table-style: url('../../Resources/TableStyles/TipTable.css');margin-left: 0;margin-right: auto;" class="TableStyle-TipTable" cellspacing="0">
-                                                        <col class="TableStyle-TipTable-Column-Column1" />
-                                                        <col class="TableStyle-TipTable-Column-Column2" />
-                                                        <tbody>
-                                                            <tr>
-                                                                <td class="TableStyle-TipTable-BodyB-Column1-">&#160;</td>
-                                                                <td class="TableStyle-TipTable-BodyA-Column2-">
-                                                                    <p>Type <span class="CommandLineCommand">sudo igp-backupdatabase -h</span> from the command line for command specific help.</p>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                                    <p class="tip" data-mc-autonum="&lt;span style=&quot;color: #8b4513;&quot; class=&quot;mcFormatColor&quot;&gt;&lt;b&gt;Tip: &#160;&lt;/b&gt;&lt;/span&gt;"><span class="autonumber"><span class="tip"><span style="color: #8b4513;" class="mcFormatColor"><b>Tip: &#160;</b></span></span></span>Type <span class="CommandLineCommand">sudo igp-backupdatabase -h</span> from the command line for command specific help.</p>
                                                 </div>
                                             </div>
                                         </li>
