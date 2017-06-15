@@ -274,6 +274,104 @@ p.BulletHead
 	mc-next-tag: p;
 }
 
+p.ExampleHead
+{
+	background-repeat: no-repeat;
+	background-color: #f0f8ff;
+	border-top-width: 3px;
+	color: #191970;
+	left: 12px;
+	margin-bottom: 0em;
+	margin-left: 0px;
+	mc-auto-number-class: example;
+	mc-auto-number-format: '{color #191970}{b}Example:  {/b}{/color}';
+	/*  top, right, bottom, left */
+	text-indent: 0;
+	background-position: 1% center;
+	margin-top: 6px;
+	background-image: none;
+	border-left: solid 2px #191970;
+	padding: 6px 12px 8px 30px;
+}
+
+p.tip
+{
+	background-position: 1% center;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	font-size: 100%;
+	font-weight: 500;
+	/*  top, right, bottom, left */
+	text-align: left;
+	text-indent: 0;
+	mc-auto-number-class: tip;
+	background-color: #fffaf0;
+	color: #8b4513;
+	mc-auto-number-format: '{color #8b4513}{b}Tip:  {/b}{/color}';
+	margin: 6px 0;
+	background-image: none;
+	border-left: solid 2px #ffa500;
+	padding: 8px 12px 8px 30px;
+}
+
+p.download
+{
+	background-position: 1% center;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	font-size: 100%;
+	font-weight: 500;
+	/*  top, right, bottom, left */
+	text-align: left;
+	text-indent: 0;
+	mc-auto-number-class: tip;
+	margin: 6px 0;
+	background-image: none;
+	padding: 8px 12px 8px 30px;
+	background-color: #b1c3d8;
+	color: #2c477c;
+	border-left: solid 2px #2c477c;
+	mc-auto-number-format: '{color #2c477c}{b}Download:  {/b}{/color}';
+}
+
+p.warning
+{
+	background-position: 1% center;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	font-size: 100%;
+	font-weight: 500;
+	mc-auto-number-class: warning;
+	/*  top, right, bottom, left */
+	text-align: left;
+	text-indent: 0;
+	background-color: #fffafa;
+	color: #8b0000;
+	mc-auto-number-format: '{color #8b0000}{b}Warning:  {/b}{/color}';
+	margin: 6px 0;
+	border-left: solid 2px #f00000;
+	padding: 8px 12px 8px 30px;
+}
+
+p.nota
+{
+	background-position: 1% center;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	font-size: 100%;
+	font-weight: 500;
+	margin: 0;
+	mc-auto-number-class: note;
+	/*  top, right, bottom, left */
+	text-align: left;
+	text-indent: 0;
+	background-color: #d1d8d4;
+	border-left: solid 2px #000000;
+	color: #000000;
+	mc-auto-number-format: '{color #000000}{b}Note:  {/b}{/color}';
+	padding: 8px 12px 8px 30px;
+}
+
 li.BulletHead
 {
 	font-weight: bold;
