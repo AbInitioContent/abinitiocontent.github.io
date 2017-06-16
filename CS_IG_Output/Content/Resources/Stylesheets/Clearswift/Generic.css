@@ -1493,6 +1493,7 @@ span.OptionalStepHeading
 	.centered-text
 	{
 		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 
@@ -1651,8 +1652,8 @@ div.LandingRowCTA:hover
 
 .align-center
 {
-	text-align: center;
-	vertical-align: middle;
+	margin: auto;
+	width: 80%;
 }
 
 .clearswift-blue
