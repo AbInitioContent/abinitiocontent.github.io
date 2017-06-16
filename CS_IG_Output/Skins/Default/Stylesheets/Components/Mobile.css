@@ -10,10 +10,13 @@
 	.search-bar._Skins_HomeSearchBar.mc-component
 	{
 		width: 100%;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 
 	._Skins_HomeSearchBar.mc-component .search-field
 	{
+		font-size: 1em;
 		background-color: #ffffff;
 	}
 
@@ -28,12 +31,13 @@
 	{
 		background-repeat: no-repeat;
 		background-position: center center;
+		width: 56px;
 		background: #00a3db url('Images/SearchIcon.png') no-repeat center center;
 	}
 
 	._Skins_HomeSearchBar.mc-component .search-filter-content
 	{
-		top: 29.5pt;
+		top: 40px;
 		background-color: #ffffff;
 	}
 

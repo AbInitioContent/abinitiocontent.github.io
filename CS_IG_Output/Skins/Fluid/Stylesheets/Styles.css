@@ -368,7 +368,7 @@ nav.tab-bar .menu-icon
 	top: 0;
 	left: 0;
 	position: relative;
-	height: 2em;
+	height: 9em;
 	border-top: none 0px transparent;
 	border-right: none;
 	border-bottom: none;
@@ -398,7 +398,7 @@ nav.tab-bar .menu-icon
 	line-height: 2em;
 	padding-right: 5px;
 	cursor: pointer;
-	height: 2em;
+	height: 9em;
 	border-top: none 0px transparent;
 	border-bottom: none;
 	border-right: solid 1px #000000;
@@ -443,7 +443,7 @@ nav.tab-bar .menu-icon
 	overflow: auto;
 	z-index: 1;
 	white-space: nowrap;
-	top: 2em;
+	top: 9em;
 	color: #888888;
 	background-color: #ffffff;
 }
@@ -574,7 +574,7 @@ ul.navigation ul ul ul ul > li:hover
 
 .search-submit
 {
-	height: 2em;
+	height: 9em;
 	border-top: none 0px transparent;
 	border-right: none;
 	border-bottom: none;

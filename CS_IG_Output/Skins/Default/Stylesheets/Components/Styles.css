@@ -334,14 +334,14 @@ a.activityText:visited
 .search-bar._Skins_HomeSearchBar.mc-component
 {
 	display: block;
-	width: 50em;
-	height: 29.5pt;
-	margin-top: 0px;
+	width: 100%;
+	height: 40px;
+	margin-top: 10px;
 }
 
 ._Skins_HomeSearchBar.mc-component .search-field
 {
-	height: 29.5pt;
+	height: 40px;
 	border-top: solid 2px #eeeeee;
 	border-right: solid 2px #eeeeee;
 	border-bottom: solid 2px #eeeeee;
@@ -351,7 +351,7 @@ a.activityText:visited
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
 	color: #dcdcdc;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	font-weight: bold;
 	font-style: italic;
 	padding-left: 10px;
@@ -362,7 +362,7 @@ a.activityText:visited
 
 ._Skins_HomeSearchBar.mc-component .search-filter
 {
-	height: 29.5pt;
+	height: 40px;
 	border-top: solid 2px #eeeeee;
 	border-bottom: solid 2px #eeeeee;
 	border-right: solid 1px #000000;
@@ -374,20 +374,20 @@ a.activityText:visited
 
 ._Skins_HomeSearchBar.mc-component .search-submit
 {
-	height: 29.5pt;
+	height: 40px;
 	border-top: solid 2px #eeeeee;
 	border-right: solid 2px #eeeeee;
 	border-bottom: solid 2px #eeeeee;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
-	width: 56px;
+	width: 69px;
 	background: #00a3db url('Images/SearchIcon.png') no-repeat center center;
 	-pie-background: #00a3db url('Skins/Default/Stylesheets/Components/Images/SearchIcon.png') no-repeat center center;
 }
 
 ._Skins_HomeSearchBar.mc-component .search-filter-content
 {
-	top: 29.5pt;
+	top: 40px;
 	color: #888888;
 	background-color: #ffffff;
 }
@@ -433,7 +433,7 @@ a.activityText:visited
 
 ._Skins_HomeSearchBar.mc-component .search-filter-wrapper
 {
-	right: 56px;
+	right: 69px;
 }
 
 ul.menu._Skins_SideMenu.mc-component

@@ -22,7 +22,8 @@
 
 	.search-bar._Skins_HomeSearchBar.mc-component
 	{
-		
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 
 	._Skins_HomeSearchBar.mc-component .search-field
@@ -46,7 +47,7 @@
 
 	._Skins_HomeSearchBar.mc-component .search-filter-content
 	{
-		top: 29.5pt;
+		top: 40px;
 		background-color: #ffffff;
 	}
 
