@@ -62,6 +62,7 @@ ul.navigation
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: normal;
+	display: none;
 	padding-left: 20px;
 	padding-right: 20px;
 }
