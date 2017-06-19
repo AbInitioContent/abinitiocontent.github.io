@@ -721,27 +721,27 @@ div.LandingRow-1 > div:nth-child(1)
 	margin-left: 0%;
 }
 
-div.LandingRow-3-3-3	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+div.LandingRow-4-4-4	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
 {
 	mc-grid-row: true;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-div.LandingRow-3-3-3::before
+div.LandingRow-4-4-4::before
 {
 	content: ' ';
 	display: table;
 }
 
-div.LandingRow-3-3-3::after
+div.LandingRow-4-4-4::after
 {
 	content: ' ';
 	display: table;
 	clear: both;
 }
 
-div.LandingRow-3-3-3 > div
+div.LandingRow-4-4-4 > div
 {
 	float: left;
 	-moz-box-sizing: border-box;
@@ -751,19 +751,19 @@ div.LandingRow-3-3-3 > div
 	font-size: 1.5em;
 }
 
-div.LandingRow-3-3-3 > div:nth-child(1)
+div.LandingRow-4-4-4 > div:nth-child(1)
 {
 	width: 33.333%;
 	margin-left: 0%;
 }
 
-div.LandingRow-3-3-3 > div:nth-child(2)
+div.LandingRow-4-4-4 > div:nth-child(2)
 {
 	width: 33.333%;
 	margin-left: 0%;
 }
 
-div.LandingRow-3-3-3 > div:nth-child(3)
+div.LandingRow-4-4-4 > div:nth-child(3)
 {
 	width: 33.33333%;
 	margin-left: 0%;
@@ -807,49 +807,6 @@ div.LandingRow-6-6 > div:nth-child(1)
 }
 
 div.LandingRow-6-6 > div:nth-child(2)
-{
-	width: 50%;
-	margin-left: 0%;
-}
-
-div.LandingRow-6-6-A	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
-{
-	mc-grid-row: true;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-div.LandingRow-6-6-A::before
-{
-	content: ' ';
-	display: table;
-}
-
-div.LandingRow-6-6-A::after
-{
-	content: ' ';
-	display: table;
-	clear: both;
-}
-
-div.LandingRow-6-6-A > div
-{
-	float: left;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	font-size: 1.5em;
-	padding-left: 5px;
-	padding-right: 5px;
-}
-
-div.LandingRow-6-6-A > div:nth-child(1)
-{
-	width: 50%;
-	margin-left: 0%;
-	font-size: 1.5em;
-}
-
-div.LandingRow-6-6-A > div:nth-child(2)
 {
 	width: 50%;
 	margin-left: 0%;
@@ -971,19 +928,19 @@ div.LandingRow-6-6-A > div:nth-child(2)
 		margin-left: 0%;
 	}
 
-	div.LandingRow-3-3-3 > div:nth-child(1)
+	div.LandingRow-4-4-4 > div:nth-child(1)
 	{
 		width: 33.33333%;
 		margin-left: 0%;
 	}
 
-	div.LandingRow-3-3-3 > div:nth-child(2)
+	div.LandingRow-4-4-4 > div:nth-child(2)
 	{
 		width: 33.33333%;
 		margin-left: 0%;
 	}
 
-	div.LandingRow-3-3-3 > div:nth-child(3)
+	div.LandingRow-4-4-4 > div:nth-child(3)
 	{
 		width: 33.33333%;
 		margin-left: 0%;
@@ -1140,19 +1097,19 @@ div.LandingRow-6-6-A > div:nth-child(2)
 		margin-left: 0%;
 	}
 
-	div.LandingRow-3-3-3 > div:nth-child(1)
+	div.LandingRow-4-4-4 > div:nth-child(1)
 	{
 		width: 100%;
 		margin-left: 0%;
 	}
 
-	div.LandingRow-3-3-3 > div:nth-child(2)
+	div.LandingRow-4-4-4 > div:nth-child(2)
 	{
 		width: 100%;
 		margin-left: 0%;
 	}
 
-	div.LandingRow-3-3-3 > div:nth-child(3)
+	div.LandingRow-4-4-4 > div:nth-child(3)
 	{
 		width: 100%;
 		margin-left: 0%;
