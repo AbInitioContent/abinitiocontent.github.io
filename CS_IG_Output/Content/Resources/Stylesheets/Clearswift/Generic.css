@@ -1133,6 +1133,8 @@ div.LandingRow-6-6 > div
 	float: left;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 div.LandingRow-6-6 > div:nth-child(1)
@@ -1151,8 +1153,8 @@ div.PlayBox
 {
 	padding: 12px;
 	margin: 10px;
-	border: solid 1px #dcdcdc;
 	min-height: 175px;
+	border: solid 2px #dcdcdc;
 }
 
 div.PlayBox-small
@@ -1214,6 +1216,45 @@ div.LandingRowCTA > div:nth-child(1)
 	width: 100%;
 	margin-left: 0%;
 	font-size: inherit;
+}
+
+div.LandingRow-6-6-A	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.LandingRow-6-6-A::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.LandingRow-6-6-A::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.LandingRow-6-6-A > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.LandingRow-6-6-A > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.LandingRow-6-6-A > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
 }
 
 @media print
@@ -1454,6 +1495,24 @@ span.OptionalStepHeading
 		margin-left: 0%;
 	}
 
+	div.LandingRow-3-3-3 > div:nth-child(1)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-3-3-3 > div:nth-child(2)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-3-3-3 > div:nth-child(3)
+	{
+		width: 33.333%;
+		margin-left: 0%;
+	}
+
 	div.OtherTopicTemplate > div:nth-child(1)
 	{
 		width: 50%;
@@ -1480,13 +1539,13 @@ span.OptionalStepHeading
 
 	div.LandingRow-6-6 > div:nth-child(1)
 	{
-		width: 50%;
+		width: 100%;
 		margin-left: 0%;
 	}
 
 	div.LandingRow-6-6 > div:nth-child(2)
 	{
-		width: 50%;
+		width: 100%;
 		margin-left: 0%;
 	}
 
@@ -1495,11 +1554,35 @@ span.OptionalStepHeading
 		margin-left: 5%;
 		margin-right: 5%;
 	}
+
+	div.LandingRow-6-6-A > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-6-6-A > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
 }
 
 @media only screen and (max-width: 767px)
 {
 	div.LandingRow-3-3-3 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-3-3-3 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-3-3-3 > div:nth-child(3)
 	{
 		width: 100%;
 		margin-left: 0%;
@@ -1585,6 +1668,18 @@ span.OptionalStepHeading
 	{
 		margin-left: 5%;
 		margin-right: 5%;
+	}
+
+	div.LandingRow-6-6-A > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.LandingRow-6-6-A > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
 	}
 }
 
