@@ -28,8 +28,6 @@ h2
 	margin-bottom: 0pt;
 	mc-next-tag: p;
 	font-size: 130%;
-	border-bottom-style: none;
-	color: #000000;
 }
 
 h3
@@ -889,6 +887,14 @@ h2.Underlined
 	text-decoration: underline;
 	border-width: 0px;
 	border-bottom: solid 0px;
+}
+
+h2.Border-bottom
+{
+	border-bottom-style: solid;
+	border-bottom-color: #eeba19;
+	border-bottom-width: 2px;
+	color: #000000;
 }
 
 pre,
@@ -1830,7 +1836,7 @@ div.LandingRowCTA:active
 
 /** Table styles **/
 
-mcTableStyle
+.mcTableStyle
 {
 	name: ClearswiftBasic;
 	border-collapse: separate;
@@ -1856,7 +1862,7 @@ mcTableStyle
 	margin-top: 5pt;
 }
 
-mcTableColumnStyle
+.mcTableColumnStyle
 {
 	span: 1;
 	id: 8;
@@ -1870,7 +1876,7 @@ mcTableColumnStyle
 	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
 }
 
-mcTableColumnStyle
+.mcTableColumnStyle
 {
 	span: 1;
 	id: 10;
@@ -1883,7 +1889,7 @@ mcTableColumnStyle
 	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
 }
 
-mcTableHeadStyle
+.mcTableHeadStyle
 {
 	span: 1;
 	separator-style: solid;
@@ -1898,7 +1904,7 @@ mcTableHeadStyle
 	vertical-align: middle;
 }
 
-mcTableBodyStyle
+.mcTableBodyStyle
 {
 	span: 1;
 	id: 7;
@@ -1913,7 +1919,7 @@ mcTableBodyStyle
 	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
 }
 
-mcTableBodyStyle
+.mcTableBodyStyle
 {
 	span: 1;
 	id: 9;
