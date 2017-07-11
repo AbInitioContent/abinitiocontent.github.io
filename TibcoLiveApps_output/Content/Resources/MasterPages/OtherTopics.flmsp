@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="245" MadCap:lastWidth="963">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="" />
+        <meta name="author" content="" /><title></title>
+        <link href="../Stylesheets/Clearswift/Generic.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="content" MadCap:conditions="Primary.not_included">
+            <div id="contentBody">
+                <div class="row collapse">
+                    <div class="sideContent">
+                        <div class="clearfix" MadCap:conditions="Primary.not_included">
+                            <MadCap:topicToolbarProxy />
+                        </div>
+                        <MadCap:menuProxy style="mc-context-sensitive: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
+                    </div>
+                    <MadCap:breadcrumbsProxy MadCap:conditions="Primary.not_included" />
+                    <MadCap:bodyProxy />
+                </div>
+            </div>
+        </div>
+        <MadCap:searchBarProxy data-mc-skin="/Project/Skins/HomeSearchBar.flskn" MadCap:conditions="Primary.not_included" />
+        <div class="OtherTopicsLayout" MadCap:conditions="Primary.not_included">
+            <div>
+                <MadCap:bodyProxy />
+            </div>
+            <div class="sideContent">
+                <MadCap:menuProxy style="mc-context-sensitive: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
+            </div>
+        </div>
+        <div class="OtherTopic-8-4" MadCap:conditions="Primary.not_included">
+            <div>
+                <MadCap:bodyProxy />
+            </div>
+            <div class="sideContent">
+                <MadCap:menuProxy style="mc-context-sensitive: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" />
+            </div>
+        </div>
+        <div>
+            <div>
+                <MadCap:bodyProxy />
+            </div>
+        </div>
+    </body>
+</html>
