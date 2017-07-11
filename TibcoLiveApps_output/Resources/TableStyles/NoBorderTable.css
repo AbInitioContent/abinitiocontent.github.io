@@ -1,0 +1,1073 @@
+﻿/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: NoBorderTable;
+	border-collapse: collapse;
+	max-id: 4;
+	cell-padding-left: 5px;
+	cell-padding-right: 5px;
+	cell-padding-top: 5px;
+	cell-padding-bottom: 5px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Column1;
+	id: 0;
+	text-align: center;
+	vertical-align: middle;
+	cell-padding-left: 5px;
+	cell-padding-right: 5px;
+	cell-padding-top: 5px;
+	cell-padding-bottom: 5px;
+	size: 50px;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 4;
+	name: Column2;
+	size: 500px;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	cell-padding-left: 5px;
+	cell-padding-right: 5px;
+	cell-padding-top: 5px;
+	cell-padding-bottom: 5px;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Header1;
+	id: 2;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Body1;
+	id: 1;
+}
+
+mcTableFootStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Footer1;
+	id: 3;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-NoBorderTable
+{
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-NoBorderTable-Column-Column1
+{
+	width: 50px;
+}
+
+.TableStyle-NoBorderTable-Column-Column2
+{
+	width: 500px;
+}
+
+.TableStyle-NoBorderTable-Head-Header1
+{
+	
+}
+
+.TableStyle-NoBorderTable-HeadI-Column1-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadI-Column1-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-HeadE-Column1-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-NoBorderTable-HeadE-Column1-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-HeadF-Column1-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-NoBorderTable-HeadF-Column1-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-HeadH-Column1-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NoBorderTable-HeadH-Column1-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-HeadD-Column1-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-NoBorderTable-HeadD-Column1-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-HeadC-Column1-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadC-Column1-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-HeadB-Column1-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NoBorderTable-HeadB-Column1-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-HeadA-Column1-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadA-Column1-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-HeadG-Column1-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadG-Column1-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-HeadI-Column2-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	font-size: 10pt;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadI-Column2-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	font-size: 10pt;
+}
+
+.TableStyle-NoBorderTable-HeadE-Column2-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	font-size: 10pt;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-NoBorderTable-HeadE-Column2-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-HeadF-Column2-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-NoBorderTable-HeadF-Column2-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	font-size: 10pt;
+}
+
+.TableStyle-NoBorderTable-HeadH-Column2-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadH-Column2-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-HeadD-Column2-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-NoBorderTable-HeadD-Column2-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-HeadC-Column2-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadC-Column2-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-HeadB-Column2-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadB-Column2-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-HeadA-Column2-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadA-Column2-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-HeadG-Column2-Header1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-HeadG-Column2-Header1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-Foot-Footer1
+{
+	
+}
+
+.TableStyle-NoBorderTable-FootI-Column1-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootI-Column1-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-FootE-Column1-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: none;
+}
+
+.TableStyle-NoBorderTable-FootE-Column1-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-FootF-Column1-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: none;
+}
+
+.TableStyle-NoBorderTable-FootF-Column1-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-FootH-Column1-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NoBorderTable-FootH-Column1-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-FootD-Column1-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: none;
+}
+
+.TableStyle-NoBorderTable-FootD-Column1-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-FootC-Column1-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootC-Column1-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-FootB-Column1-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NoBorderTable-FootB-Column1-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-FootA-Column1-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootA-Column1-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-FootG-Column1-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootG-Column1-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-FootI-Column2-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootI-Column2-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-FootE-Column2-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: none;
+}
+
+.TableStyle-NoBorderTable-FootE-Column2-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-FootF-Column2-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: none;
+}
+
+.TableStyle-NoBorderTable-FootF-Column2-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-FootH-Column2-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootH-Column2-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-FootD-Column2-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: none;
+}
+
+.TableStyle-NoBorderTable-FootD-Column2-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-FootC-Column2-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootC-Column2-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	font-size: 10pt;
+}
+
+.TableStyle-NoBorderTable-FootB-Column2-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootB-Column2-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-FootA-Column2-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootA-Column2-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-FootG-Column2-Footer1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-FootG-Column2-Footer1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-Body-Body1
+{
+	
+}
+
+.TableStyle-NoBorderTable-BodyI-Column1-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyI-Column1-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-BodyE-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NoBorderTable-BodyE-Column1-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-BodyF-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyF-Column1-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-BodyH-Column1-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NoBorderTable-BodyH-Column1-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-BodyD-Column1-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyD-Column1-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-BodyC-Column1-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyC-Column1-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-BodyB-Column1-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-NoBorderTable-BodyB-Column1-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-BodyA-Column1-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyA-Column1-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-BodyG-Column1-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyG-Column1-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+}
+
+.TableStyle-NoBorderTable-BodyI-Column2-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyI-Column2-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-BodyE-Column2-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyE-Column2-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-BodyF-Column2-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyF-Column2-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-BodyH-Column2-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyH-Column2-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-BodyD-Column2-Body1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyD-Column2-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-BodyC-Column2-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyC-Column2-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	
+}
+
+.TableStyle-NoBorderTable-BodyB-Column2-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyB-Column2-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-BodyA-Column2-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyA-Column2-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
+
+.TableStyle-NoBorderTable-BodyG-Column2-Body1
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.TableStyle-NoBorderTable-BodyG-Column2-Body1 p
+{
+	font-family: 'Segoe UI', Trebuchet MS, sans-serif;
+	}
