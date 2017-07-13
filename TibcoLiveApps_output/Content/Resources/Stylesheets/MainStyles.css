@@ -694,6 +694,11 @@ hr
 	{
 		width: 100%;
 	}
+
+	img.SeventyPC
+	{
+		max-width: 100%;
+	}
 }
 
 img.Eightypc
@@ -705,5 +710,10 @@ hr.Yellow
 {
 	color: #eeba19;
 	width: 75%;
+}
+
+img.SeventyPC
+{
+	max-width: 70%;
 }
 
