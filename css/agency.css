@@ -334,13 +334,16 @@ section h3.section-subheading {
   margin: 0 0 15px;
   right: 0;
 }
-#portfolio .portfolio-item .portfolio-link {
+#portfolio .portfolio-item .portfolio-link, 
+#portfolio .portfolio-item .portfolio-clearswift-link{
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
-  margin-left: 70px;
   min-height: 80px;
+}
+#portfolio .portfolio-item .portfolio-clearswift-link{
+  background-color: #eee;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(254, 209, 54, 0.9);
