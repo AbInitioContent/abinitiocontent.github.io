@@ -342,9 +342,11 @@ section h3.section-subheading {
   margin: 0 auto;
   min-height: 80px;
 }
+/*
 #portfolio .portfolio-item .portfolio-clearswift-link{
   background-color: #eee;
 }
+*/
 #portfolio .portfolio-item .portfolio-link .portfolio-hover,
 #portfolio .portfolio-item .portfolio-clearswift-link .portfolio-hover
 {
@@ -357,7 +359,9 @@ section h3.section-subheading {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover,
+#portfolio .portfolio-item .portfolio-clearswift-link .portfolio-hover:hover
+{
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content,
